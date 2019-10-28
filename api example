@@ -1,0 +1,66 @@
+{
+ "kind": "youtube#channelListResponse",
+ "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/K2g4OjxEVcJpBikfEohoCvAAZfM\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 1
+ },
+ "items": [
+  {
+   "kind": "youtube#channel",
+   "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BVx44ir0dsbIPizTSv95cn6F19k\"",
+   "id": "UCJu32YspnuE7bck6Li-vyfQ",
+   "snippet": {
+    "title": "UIC Vlogs",
+    "description": "Guy from Mumbai known as ' Ur IndianConsumer ' [UIC] shares his life on YouTube.",
+    "customUrl": "uicvlogs",
+    "publishedAt": "2017-04-21T15:31:34.000Z",
+    "thumbnails": {
+     "default": {
+      "url": "https://yt3.ggpht.com/a/AGF-l78yxg_65OCpQD-HmdBV2XBXSmy01j9j1Yxg_w=s88-c-k-c0xffffffff-no-rj-mo",
+      "width": 88,
+      "height": 88
+     },
+     "medium": {
+      "url": "https://yt3.ggpht.com/a/AGF-l78yxg_65OCpQD-HmdBV2XBXSmy01j9j1Yxg_w=s240-c-k-c0xffffffff-no-rj-mo",
+      "width": 240,
+      "height": 240
+     },
+     "high": {
+      "url": "https://yt3.ggpht.com/a/AGF-l78yxg_65OCpQD-HmdBV2XBXSmy01j9j1Yxg_w=s800-c-k-c0xffffffff-no-rj-mo",
+      "width": 800,
+      "height": 800
+     }
+    },
+    "localized": {
+     "title": "UIC Vlogs",
+     "description": "Guy from Mumbai known as ' Ur IndianConsumer ' [UIC] shares his life on YouTube."
+    },
+    "country": "IN"
+   },
+   "contentDetails": {
+    "relatedPlaylists": {
+     "uploads": "UUJu32YspnuE7bck6Li-vyfQ",
+     "watchHistory": "HL",
+     "watchLater": "WL"
+    }
+   },
+   "statistics": {
+    "viewCount": "36034524",
+    "commentCount": "0",
+    "subscriberCount": "0",
+    "hiddenSubscriberCount": true,
+    "videoCount": "215"
+   }
+  }
+ ]
+}
+
+
+
+
+
+
+
+
+

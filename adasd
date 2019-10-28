@@ -1,0 +1,28 @@
+$.ajax({
+    type: "GET",
+    async: false,
+    url: "../views/person/controller.php?actor=person&action=checkAge",
+    data: "age=" + value,
+    success: function(msg){
+        console.log(msg);
+        test = msg; 
+    },
+});
+Validate.fail(test);
+
+
+
+ font-family: 'Lucki`est Guy', cursive
+
+
+
+
+
+
+
+
+
+
+ <div class="imagediv">
+				<img src="ytimg.jpg" height="200" width="400" id="imgchange" onclick="window.open('','_blank')"> <br>
+			</div>

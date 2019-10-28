@@ -1,0 +1,65 @@
+{
+ "kind": "youtube#videoListResponse",
+ "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VDbh8bf34NQMP1TdGGbn-8GPeMA\"",
+ "pageInfo": {
+  "totalResults": 1,
+  "resultsPerPage": 1
+ },
+ "items": [
+  {
+   "kind": "youtube#video",
+   "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AtbhjEtGof8OFfhL6RT3LviGfO8\"",
+   "id": "T0Jqdjbed40",
+   "snippet": {
+    "publishedAt": "2011-09-23T09:27:32.000Z",
+    "channelId": "UC-9Jgg5zVW4DCE_R3kQ94Ig",
+    "title": "HD Film Countdown Leader in 16x9 Ratio",
+    "description": "Beastly Exploitation Cinema's Film Leader Countdown.\r\n\r\nThis 1080p HD Film Countdown Leader  was created with Paint.Net and VirtualDub.  There is no sound.  The countdown was created at 24 FPS to give every frame a correct \"Film\" feel.  The countdown is based off actual countdowns here on YouTube and 16mm ones in my possession.\r\n\r\nPaint.Net was used to create the templates and then individual frames and textures.  Paint.Net can be gotten for free from here: http://www.getpaint.net/\r\n\r\nVirtualDub was used to put all of the components together by use of the filter: Logo (1.7b2) by Donald Graft.  That filter was used a total of twenty times to create the countdown. (I personally feel that Donald Graft's Logo filter is the most powerful and most overlooked filter available for VirtualDub).  VirtualDub can be gotten for free from here: http://www.virtualdub.org/\r\n\r\nSince there is no sound, the classic \"beep\" is missing when the 2 appears.\r\n\r\nThis video is freely available to everyone for any of their projects, to do with as they want.  No credit is needed.\r\n\r\nThere is also a 1080p HD 3x2 and a 4x3 (Academy Aperture) Film Countdown Leader available from my channel.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/T0Jqdjbed40/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/T0Jqdjbed40/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/T0Jqdjbed40/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/T0Jqdjbed40/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/T0Jqdjbed40/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "BeastlyExploitation",
+    "tags": [
+     "film",
+     "short film",
+     "countdown",
+     "free",
+     "leader",
+     "universal",
+     "cinema",
+     "SMPTE"
+    ],
+    "categoryId": "1",
+    "liveBroadcastContent": "none",
+    "localized": {
+     "title": "HD Film Countdown Leader in 16x9 Ratio",
+     "description": "Beastly Exploitation Cinema's Film Leader Countdown.\r\n\r\nThis 1080p HD Film Countdown Leader  was created with Paint.Net and VirtualDub.  There is no sound.  The countdown was created at 24 FPS to give every frame a correct \"Film\" feel.  The countdown is based off actual countdowns here on YouTube and 16mm ones in my possession.\r\n\r\nPaint.Net was used to create the templates and then individual frames and textures.  Paint.Net can be gotten for free from here: http://www.getpaint.net/\r\n\r\nVirtualDub was used to put all of the components together by use of the filter: Logo (1.7b2) by Donald Graft.  That filter was used a total of twenty times to create the countdown. (I personally feel that Donald Graft's Logo filter is the most powerful and most overlooked filter available for VirtualDub).  VirtualDub can be gotten for free from here: http://www.virtualdub.org/\r\n\r\nSince there is no sound, the classic \"beep\" is missing when the 2 appears.\r\n\r\nThis video is freely available to everyone for any of their projects, to do with as they want.  No credit is needed.\r\n\r\nThere is also a 1080p HD 3x2 and a 4x3 (Academy Aperture) Film Countdown Leader available from my channel."
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+	
+
+
+</head>
+<body>
+	<section>
+		<h1>Youtube Thumbnail Downloader</h1>
+
+		<div class="centerDiv">
+			<div class="details">
+				<label><b>Enter The Youtube Video URL</b></label><br>
+				<br><input type="text" id="url" autocomplete="true" style="width: 500px;" ><br><br>
+			</div>
+			<div class="imagediv">
+				<img src="ytimg.jpg" height="200" width="400" id="imgchange" onclick="window.open(src,'_blank')"> <br>
+			</div>
+			<div>
+				<br><button>Submit</button>
+				
+			</div>
+			<div class="details">
+				<label>Title :</label>
+				<label id="title"> </label> <br>
+				<label id="channel">Subscribers : </label>	
+				<label id="subcount"> </label><br>
+				<label>Channel :</label>
+				<label id="name"></label>
+
+
+			</div>
+		</div>
+		<footer><br><br><br>
+  		<marquee>
+  			<a href="https://jpst.it/1U2Xr"> Contact Me ||</a>
+  			<a href="https://github.com/mananshah2254">My Github</a>
+
+  		</marquee>
+</footer>
+	</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script>
+	$(document).ready(function(){
+		$('button').click(function(){
+			const a =$('#url').val();
+			const b =a.substring(32);
+			
+			$('#imgchange').attr('src',`https://img.youtube.com/vi/${b}/maxresdefault.jpg` )
+
+			//var a =$(`https://img.youtube.com/vi/${b}/maxresdefault.jpg`)
+
+
+			
+			// aa = 'https://img.youtube.com/vi/'.$b.'/maxresdefault.jpg';
+			
+
+			var url=`https://www.googleapis.com/youtube/v3/videos?key=AIzaSyDPrKEF_JF2nLfcR88MRmkB-GhlQPcuuVo&part=snippet&id=${b}`;
+		
+
+			$.ajax({
+				  type: 'GET',
+				  url: url,
+				  success: function(data,msg){
+						        console.log(msg);
+						        data1 = data;
+						    },
+				  async:false
+				});
+			var channel=data1.items[0].snippet.channelId;
+			var title=data1.items[0].snippet.title;
+			//var sub=data2.itens[0].statistics.subscriberCount;
+
+			//alert("data "+channel+"  TITLE  "+title);
+
+			
+
+			//Start of second api
+
+			var url1=`https://www.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${channel}&key=AIzaSyDPrKEF_JF2nLfcR88MRmkB-GhlQPcuuVo`;
+
+			$.ajax({
+				  type: 'GET',
+				  url: url1,
+				  success: function(data,msg){
+						        console.log(msg);
+						        data2 = data;
+						    },
+				  async:false
+				});
+			//alert("Second Api "+JSON.stringify(data2));
+			var sub=data2.items[0].statistics.subscriberCount;
+			//alert(sub);
+			var chan=data2.items[0].snippet.title;
+			//alert(chan);
+
+
+
+			//$("#channel").text(channel);
+			$("#name").text(chan);
+			$("#title").text(title);
+			$("#subcount").text(sub);
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+		
+
+
+		});
+	});
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
